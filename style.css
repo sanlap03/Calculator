@@ -1,0 +1,35 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.text-center{
+  text-align:center;
+  color:#6cc6c6;
+}
+.button{
+  padding:20px;
+  margin:0 3px;
+  border:2px solid black;
+  border-radius:20px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: black;
+  color:white;
+}
+.flex{
+  display:flex;
+}
+.flex-col{
+  flex-direction:column;
+  align-items: center;
+}
+.row{
+  margin:5px 0;
+}
+.row input{
+  margin:0;
+  font-size:20px;
+  padding:6px 0;
+  border:2px solid black;
+}
